@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@media ((max-height:800px) and (max-width:640px)) ,(min-height:1090px) {
+  .hide-on-small-height {
+    display: none;
+  }
+}
 @layer base {
   .text-edge-outline {
     -webkit-text-stroke: 1px rgba(255,255,255,0.3);
@@ -9,7 +14,9 @@
 } 
 
 .btn-neumorphic {
-  box-shadow:  0px 1px 25px rgba(113, 113, 122, 0.8),  -9px -9px 16px rgb(113 113 122 / 20%);
+  /* box-shadow:  -10px -2px 35px rgba(113, 113, 122, 0.9),  10px 2px 35px rgb(113 113 122 / 50%); */
+  box-shadow:  -10px -2px 35px rgba(2, 180, 220, 0.58),  10px 2px 35px rgba(113, 120, 122, 0.9);
+
   color: white;
   border-radius: 50px;
   width: 160px;
@@ -22,6 +29,7 @@
 -webkit-transition : box-shadow .5s;
   transition : box-shadow .5s;
   padding-top: 5px;
+  background-color:rgba(0, 0, 0, 0.1);
 
 
     

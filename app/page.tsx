@@ -127,6 +127,7 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Particles from "./components/particles";
 
+
 const navigation = [
   { name: "Our Work", href: "/projects" },
   { name: "Services", href: "/contact" },
@@ -146,6 +147,18 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
+      <div className="animate-fade-in">
+      <img
+  alt='logo'
+  style={{ 
+    width: '39em',
+    opacity: "3%",
+  }}
+  className="absolute bottom-1/5 left-1/2 transform -translate-x-1/2"
+  src='/og2.png'
+/>
+
+      </div>
       <nav className=" mb-20vh @apply animate-fade-in">
   <ul className=" justify-center gap-20">
     {navigation.map((item) => (
@@ -162,18 +175,15 @@ export default function Home() {
     ))}
   </ul>
 </nav>
-      <div className="hidden w-screen h-px @apply animate-glow sm:block @apply animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      <div className=" w-screen h-px @apply animate-glow sm:block @apply animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <Particles
-        className="absolute inset-0 -z-10 @apply animate-fade-in"
-        
+        className="absolute inset-0 -z-10  @apply animate-fade-in"
       />
-      <div className=''>
-        <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline @apply animate-title font-display sm:text-6xl md:text-7xl whitespace-nowrap bg-clip-text   ">
+        <h1 className=" py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000  bg-white
+        cursor-default text-edge-outline @apply animate-title font-display sm:text-6xl md:text-7xl whitespace-nowrap bg-clip-text hide-on-small-height  "style={{  textShadow: "3px 4px 50px rgba(113, 120, 122, 1)" }}>
           Arif Group
         </h1>
-      </div>
-
-      <div className="hidden w-screen h-px @apply animate-glow sm:block @apply animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+      <div className=" w-screen h-px @apply animate-glow sm:block @apply animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       
     </div>
   );

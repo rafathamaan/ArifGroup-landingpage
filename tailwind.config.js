@@ -38,7 +38,7 @@ module.exports = {
 			},
 			animation: {
 				"fade-in": "fade-in 3s ease-in-out forwards",
-				title: "title 3s ease-out forwards",
+				title: "title 3s ease-in-out forwards",
 				"fade-left": "fade-left 3s ease-in-out forwards",
 				"fade-right": "fade-right 3s ease-in-out forwards",
 			},
@@ -56,56 +56,60 @@ module.exports = {
 				},
 				"fade-left": {
 					"0%": {
-						transform: "translateX(100%) translateY(-13.3rem) ",
+						transform: "translateX(100%) translateY(-23vh) ",
 						opacity: "0%",
 					},
 
 					"30%": {
-						transform: "translateX(0%) translateY(-13.3rem) ",
+						transform: "translateX(0%) translateY(-23vh) ",
 						opacity: "100%",
 					},
 					"100%": {
-						transform: " translateY(-20rem) ",
+						transform: " translateY(-33vh) ",
 						opacity: "0%",
 					},
 				},
+				
 				"fade-right": {
 					"0%": {
-						transform: "translateX(-100%) translateY(-15.8rem) ",
+						transform: "translateX(-100%) translateY(-26vh) ",
 						opacity: "0%",
 					},
 
 					"30%": {
-						transform: "translateX(0%) translateY(-15.8rem)",
+						transform: "translateX(0%) translateY(-26vh)",
 						opacity: "100%",
 					},
 					"100%": {
-						transform: " translateY(-10rem)",
+						transform: " translateY(-16vh)",
 						opacity: "0%",
 					},
 				},
 				title: {
 					"0%": {
 						"line-height": "0%",
-						transform: "translateY(-14.8rem) scale(0.5)",
-						"letter-spacing": "0.25em",
+						transform: "translateY(-25vh) scale(0.2)",
+						"letter-spacing": "1.5rem",
 						opacity: "0",
 					},
 					"25%": {
 						"line-height": "0%",
-						transform: "translateY(-14.8rem) scale(0.5)",
+						transform: "translateY(-25vh) scale(0.2)",
 						opacity: "0%",
 					},
 					"80%": {
 						opacity: "100%",
-						transform: "translateY(-14.8rem) scale(1.9)",
+						transform: "translateY(-25vh) scale(1.9)",
+
 					},
 
 					"100%": {
 						"line-height": 
 						"100%",
-						transform: "translateY(-42.5rem) scale(1)",
+						transform: " translateY(-71vh) scale(1)",
 						opacity: "100%",
+						"letter-spacing": "0rem",
+
 					},
 				},
 			},
