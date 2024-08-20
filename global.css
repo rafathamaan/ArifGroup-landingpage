@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@media ((max-height:800px) and (max-width:640px)) ,(min-height:1090px) {
+@media (min-height:801px) and (min-width:640px) ,(min-height:1091px),(max-height:737px) {
   .hide-on-small-height {
     display: none;
   }
