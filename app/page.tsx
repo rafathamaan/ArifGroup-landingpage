@@ -129,11 +129,11 @@ import Particles from "./components/particles";
 
 
 const navigation = [
-  { name: "Our Work", href: "/projects" },
+  { name: "Our Work", href: "https://ourwork.Arifgroup.in" },
   { name: "Services", href: "/contact" },
-  { name: "Sales", href: "/projects" },
+  { name: "Sales", href: "/contact" },
   { name: "Contact", href: "/contact" },
-  { name: "Google Maps", href: "/contact" },
+  { name: "Google Maps", href: "https://maps.app.goo.gl/groQjAfwVaWHsQWTA" },
 ];
 
 export default function Home() {
