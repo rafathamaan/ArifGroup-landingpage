@@ -72,7 +72,7 @@
 //   );
 // }
 import "../global.css";
-import { Inter } from "@next/font/google";
+import { Inter, Poppins } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
@@ -118,6 +118,11 @@ const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600"],
+  style: "normal",
+});
 
 const calSans = LocalFont({
   src: "../public/fonts/CalSans-SemiBold.ttf",
@@ -130,13 +135,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${calSans.variable}`}>
+    <html lang="en" className={`${poppins.className} ${inter.variable} ${calSans.variable}`}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <Analytics />
       </head>
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : ""}`}
+        className={`bg-black font-sans ${process.env.NODE_ENV === "development" ? "debug-screens" : ""}`}
       >
         {children}
       </body>

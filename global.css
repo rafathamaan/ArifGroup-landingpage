@@ -25,6 +25,11 @@
   }
 } 
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .btn-neumorphic {
   /* box-shadow:  -10px -2px 35px rgba(113, 113, 122, 0.9),  10px 2px 35px rgb(113 113 122 / 50%); */
   box-shadow:  -10px -2px 35px rgba(2, 180, 220, 0.58),  10px 2px 35px rgba(113, 120, 122, 0.9);

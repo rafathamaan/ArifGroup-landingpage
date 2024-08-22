@@ -162,7 +162,7 @@ export default function Home() {
       <nav className=" mb-20vh @apply animate-fade-in">
   <ul className=" justify-center gap-20">
     {navigation.map((item) => (
-      <li className='btn-neumorphic gradient-btn' key={item.href}>
+      <li className='btn-neumorphic gradient-btn font-sans font-medium' key={item.href}>
         <div className="">
           <Link
             href={item.href}
