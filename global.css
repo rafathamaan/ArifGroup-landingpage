@@ -8,17 +8,17 @@
     display: none;
   }
 }*/
-@media (max-height: 810px) {
+@media (max-height: 640px) {
   .hide-on-small-height {
     display: none;
   }
 } 
-@media (min-height: 1124px) {
+/* @media (min-height: 1124px) {
   .move-on-big-screen{
-    margin-top: 20vh;
-  }
+    /* margin-top: 20vh; 
+  } 
   
-}
+}*/
 @layer base {
   .text-edge-outline {
     -webkit-text-stroke: 1px rgba(255,255,255,0.3);

@@ -56,57 +56,57 @@ module.exports = {
 				},
 				"fade-left": {
 					"0%": {
-						transform: "translateX(100%) translateY(-23vh) ",
+						transform: "translateX(100%) translateY(26.5vh) ",
 						opacity: "0%",
 					},
 
 					"30%": {
-						transform: "translateX(0%) translateY(-23vh) ",
+						transform: "translateX(0%) translateY(26.5vh) ",
 						opacity: "100%",
 					},
 					"100%": {
-						transform: " translateY(-33vh) ",
+						transform: " translateY(9vh) ",
 						opacity: "0%",
 					},
 				},
 				
 				"fade-right": {
 					"0%": {
-						transform: "translateX(-100%) translateY(-26vh) ",
+						transform: "translateX(-100%) translateY(25vh) ",
 						opacity: "0%",
 					},
 
 					"30%": {
-						transform: "translateX(0%) translateY(-26vh)",
+						transform: "translateX(0%) translateY(25vh)",
 						opacity: "100%",
 					},
 					"100%": {
-						transform: " translateY(-16vh)",
+						transform: " translateY(42vh)",
 						opacity: "0%",
 					},
 				},
 				title: {
 					"0%": {
 						"line-height": "0%",
-						transform: "translateY(-25vh) scale(0.2)",
+						transform: "translateY(25vh) scale(0.2)",
 						"letter-spacing": "1.5rem",
 						opacity: "0",
 					},
 					"25%": {
 						"line-height": "0%",
-						transform: "translateY(-25vh) scale(0.2)",
+						transform: "translateY(25vh) scale(0.2)",
 						opacity: "0%",
 					},
 					"80%": {
 						opacity: "100%",
-						transform: "translateY(-25vh) scale(1.9)",
+						transform: "translateY(25vh) scale(1.9)",
 
 					},
 
 					"100%": {
 						"line-height": 
 						"100%",
-						transform: " translateY(-71vh) scale(1)",
+						transform: " translateY(0vh) scale(1)",
 						opacity: "100%",
 						"letter-spacing": "0rem",
 
