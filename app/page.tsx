@@ -180,7 +180,7 @@ export default function Home() {
         className="absolute inset-0 -z-10  @apply animate-fade-in"
       />
         <h1 className=" py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000  bg-white
-        cursor-default text-edge-outline @apply animate-title font-display sm:text-6xl md:text-7xl whitespace-nowrap bg-clip-text hide-on-small-height move-on-big-screen "style={{  textShadow: "3px 4px 50px rgba(113, 120, 122, 1)" }}>
+        cursor-default text-edge-outline @apply animate-title font-display sm:text-6xl md:text-7xl whitespace-nowrap bg-clip-text hide-on-small-height move-on-big-screen "style={{  textShadow: "3px 4px 50px rgba(113, 120, 122, 1)"  }}>
           Arif Group
         </h1>
       <div className=" w-screen h-px @apply animate-glow sm:block @apply animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
