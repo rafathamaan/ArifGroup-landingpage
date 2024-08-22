@@ -129,10 +129,10 @@ import Particles from "./components/particles";
 
 
 const navigation = [
-  { name: "Our Work", href: "https://ourwork.arifgroup.in" },
-  { name: "Services", href: "https://services.arifgroup.in" },
-  { name: "Sales", href: "https://sales.arifgroup.in" },
-  { name: "Contact", href: "/contact" },
+  { name: "Arif Metal", href: "https://arifmetal.arifgroup.in" },
+  { name: "Arif Fabrications", href: "https://ariffabrications.arifgroup.in" },
+  { name: "Our Services", href: "https://services.arifgroup.in" },
+  { name: "Contact Us", href: "/contact" },
   { name: "Google Maps", href: "https://maps.app.goo.gl/groQjAfwVaWHsQWTA" },
 ];
 

@@ -30,8 +30,8 @@
 
   color: white;
   border-radius: 50px;
-  width: 160px;
-  height: 45px;
+  width: 200px;
+  height: 48px;
   line-height: 35px;
   font-size: 20px;
   letter-spacing: 0.5px;
@@ -39,7 +39,7 @@
   text-align: center;
 -webkit-transition : box-shadow .5s;
   transition : box-shadow .5s;
-  padding-top: 5px;
+  padding-top: 8px;
   background-color:rgba(0, 0, 0, 0.1);
   
 
