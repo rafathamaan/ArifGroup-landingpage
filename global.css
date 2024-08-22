@@ -8,7 +8,7 @@
     display: none;
   }
 }*/
-@media (max-height: 737px) {
+@media (max-height: 810px) {
   .hide-on-small-height {
     display: none;
   }
