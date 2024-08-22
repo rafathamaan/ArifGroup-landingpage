@@ -2,10 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-height:801px) and (min-width:640px) ,(min-height:1091px),(max-height:737px) {
+/* @media ((min-height:801px) and (min-width:640px)) ,(min-height:1091px),(max-height:737px) {
   .hide-on-small-height {
     display: none;
   }
+}*/
+@media (max-height: 737px) {
+  .hide-on-small-height {
+    display: none;
+  }
+} 
+@media (min-height: 1124px) {
+  .move-on-big-screen{
+    margin-top: 20vh;
+  }
+  
 }
 @layer base {
   .text-edge-outline {
@@ -30,6 +41,7 @@
   transition : box-shadow .5s;
   padding-top: 5px;
   background-color:rgba(0, 0, 0, 0.1);
+  
 
 
     

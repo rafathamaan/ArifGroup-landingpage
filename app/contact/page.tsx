@@ -23,13 +23,14 @@ const socials = [
 		label: "Address",
 		handle: "Nh-65, Near Khammam Cross Road, Suryapet, 508213, Telangana",
 	},
+	
 ];
 
 export default function Example() {
 	return (
 		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
 			<Particles
-        className="absolute inset-0 -z-10 @apply animate-fade-in"
+        className="absolute inset-0 -z-10"
         
       />
 			<Navigation />
