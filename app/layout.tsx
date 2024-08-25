@@ -110,7 +110,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    shortcut: "public/favicon.png",
+    shortcut: "/favicon.png",
   },
 };
 
@@ -137,7 +137,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${poppins.className} ${inter.variable} ${calSans.variable}`}>
       <head>
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/favicon.png" />
+
         <Analytics />
       </head>
       <body
