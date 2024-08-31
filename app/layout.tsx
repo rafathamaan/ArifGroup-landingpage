@@ -71,11 +71,15 @@
 //     </html>
 //   );
 // }
+
 import "../global.css";
 import { Inter, Poppins, Montserrat } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
-import { Analytics } from "./components/analytics";
+// import { Analytics } from "./components/analytics";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 
 export const metadata: Metadata = {
   title: {
@@ -147,13 +151,13 @@ export default function RootLayout({
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.png" />
-
-        <Analytics />
       </head>
       <body
         className={`bg-black font-sans ${process.env.NODE_ENV === "development" ? "debug-screens" : ""}`}
       >
         {children}
+        <Analytics />
+        <SpeedInsights/>
       </body>
     </html>
   );
