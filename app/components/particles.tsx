@@ -98,11 +98,11 @@ export default function Particles({
 		const y = Math.floor(Math.random() * canvasSize.current.h);
 		const translateX = 0;
 		const translateY = 0;
-		const size = Math.floor(Math.random() * 3) + 0.1;
+		const size = Math.floor(Math.random() * 2) + 0.1;
 		const alpha = 0;
 		const targetAlpha = parseFloat((Math.random() * 0.6 + 0.1).toFixed(1));
-		const dx = (Math.random() - 0.5) * .4;
-		const dy = (Math.random() - 0.5) * .4;
+		const dx = (Math.random() - 0.5) * .5;
+		const dy = (Math.random() - 0.5) * .5;
 		const magnetism = 0.1 + Math.random() * 4;
 		return {
 			x,
