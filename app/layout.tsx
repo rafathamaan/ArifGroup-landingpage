@@ -72,7 +72,7 @@
 //   );
 // }
 import "../global.css";
-import { Inter, Poppins } from "@next/font/google";
+import { Inter, Poppins, Montserrat } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
@@ -124,6 +124,13 @@ const poppins = Poppins({
   style: "normal",
 });
 
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["200", "300", "400", "500", "600","700","800","900"],
+  style: "normal",
+});
+
+
 const calSans = LocalFont({
   src: "../public/fonts/CalSans-SemiBold.ttf",
   variable: "--font-calsans",
@@ -135,7 +142,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${poppins.className} ${inter.variable} ${calSans.variable}`}>
+    <html lang="en" className={`${montserrat.className} ${poppins.className}  ${calSans.variable} sans-serif `}>
       <head>
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

@@ -29,8 +29,8 @@ module.exports = {
 				},
 			},
 			fontFamily: {
-				sans: ["Poppins,var(--font-inter)", ...defaultTheme.fontFamily.sans],
-				display: ["var(--font-calsans)"],
+				sans: ["Monserrat,Poppins,var(--font-inter)", ...defaultTheme.fontFamily.sans],
+				display: ["Monserrat,Poppins,var(--font-calsans)"],
 			},
 			backgroundImage: {
 				"gradient-radial":

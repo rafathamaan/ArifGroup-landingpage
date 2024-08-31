@@ -32,22 +32,20 @@ body {
 
 .btn-neumorphic {
   /* box-shadow:  -10px -2px 35px rgba(113, 113, 122, 0.9),  10px 2px 35px rgb(113 113 122 / 50%); */
-  box-shadow:  -10px -2px 35px rgba(2, 180, 220, 0.58),  10px 2px 35px rgba(113, 120, 122, 0.9);
-
+  box-shadow:  -10px -2px 90px rgba(33, 150, 243,.9),  10px 2px 90px rgba(33, 150, 243,.9);
   color: white;
   border-radius: 50px;
   width: 220px;
   height: 48px;
   line-height: 35px;
   font-size: 20px;
-    font-weight: 500;
   letter-spacing: .81px;
   margin-top: 60px;
   text-align: center;
 -webkit-transition : box-shadow .5s;
   transition : box-shadow .5s;
   padding-top: 8px;
-  background-color:rgba(0, 0, 0, 0.1);
+  background-color:rgba(0, 0, 0, 0.9);
   
 
 
@@ -55,8 +53,17 @@ body {
 }
 .btn-neumorphic:hover {
   border: 1px solid #181818;
-    box-shadow: inset 2px 2px 4px #000, inset -5px -3px 4px #202020;
-  color: #fff;
+  /* box-shadow: inset 2px 2px 4px #000, inset -5px -3px 4px #202020; */
+  color: #ffff;
+  box-shadow: 0px 0px 70px rgb(118, 255, 3);
+  background-color: rgb(76, 175, 80);
+  border-color: rgb(76, 175, 80);
+  text-align: center;
+  padding-top: 8px;
+
+
+  
+
 } 
 /*
 
