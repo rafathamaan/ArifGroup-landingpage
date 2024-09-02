@@ -352,9 +352,11 @@ export default function Home() {
   alt='logo'
   style={{ 
     width: '39em',
-    opacity: "3%",
+    opacity: "10%",
+    bottom:"auto"
+    ,top:"33%"
   }}
-  className="absolute bottom-1/5 left-1/2 transform -translate-x-1/2"
+  className="absolute  left-1/2 transform -translate-x-1/2"
   src='/og2.png'
 />
 
