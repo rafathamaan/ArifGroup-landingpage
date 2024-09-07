@@ -56,50 +56,50 @@ module.exports = {
 				},
 				"fade-left": {
 					"0%": {
-						transform: "translateX(100%) translateY(26.5vh) ",
+						transform: "translateX(100%) translateY(1.9vh) ",
 						opacity: "0%",
 					},
 
 					"30%": {
-						transform: "translateX(0%) translateY(26.5vh) ",
+						transform: "translateX(0%) translateY(1.9vh) ",
 						opacity: "100%",
 					},
 					"100%": {
-						transform: " translateY(9vh) ",
+						transform: " translateY(-27vh) ",
 						opacity: "0%",
 					},
 				},
 				
 				"fade-right": {
 					"0%": {
-						transform: "translateX(-100%) translateY(25vh) ",
+						transform: "translateX(-100%) translateY(1.9vh) ",
 						opacity: "0%",
 					},
 
 					"30%": {
-						transform: "translateX(0%) translateY(25vh)",
+						transform: "translateX(0%) translateY(1.9vh)",
 						opacity: "100%",
 					},
 					"100%": {
-						transform: " translateY(42vh)",
+						transform: " translateY(39vh)",
 						opacity: "0%",
 					},
 				},
 				title: {
 					"0%": {
 						"line-height": "0%",
-						transform: "translateY(25vh) scale(0.2)",
+						transform: "translateY(45vh) scale(0.2)",
 						"letter-spacing": "1.5rem",
 						opacity: "0",
 					},
 					"25%": {
 						"line-height": "0%",
-						transform: "translateY(25vh) scale(0.2)",
+						transform: "translateY(45vh) scale(0.2)",
 						opacity: "0%",
 					},
 					"80%": {
 						opacity: "100%",
-						transform: "translateY(25vh) scale(1.9)",
+						transform: "translateY(45vh) scale(1.5)",
 
 					},
 

@@ -32,117 +32,27 @@ body {
 
 .btn-neumorphic {
   /* box-shadow:  -10px -2px 35px rgba(113, 113, 122, 0.9),  10px 2px 35px rgb(113 113 122 / 50%); */
-  box-shadow:  -10px -2px 90px rgba(33, 150, 243,.9),  10px 2px 90px rgba(33, 150, 243,.9);
+  box-shadow:  -10px -2px 100px rgba(33, 150, 243,.2),  10px 2px 100px rgba(33, 150, 243,.2);
   color: white;
   border-radius: 50px;
+  border-width: 1px;
+  border-color: rgba(255,255,255,0);
   width: 220px;
   height: 48px;
-  line-height: 35px;
+  line-height:47px;
   font-size: 20px;
   letter-spacing: .81px;
   margin-top: 60px;
   text-align: center;
 -webkit-transition : box-shadow .5s;
   transition : box-shadow .5s;
-  padding-top: 8px;
-  background-color:rgba(0, 0, 0, 0.9);
-  
-
-
-    
+  background-color:rgba(0, 0, 0, 0.9);    
 }
 .btn-neumorphic:hover {
   border: 1px solid #181818;
-  /* box-shadow: inset 2px 2px 4px #000, inset -5px -3px 4px #202020; */
   color: #ffff;
   box-shadow: 0px 0px 70px rgb(118, 255, 3);
   background-color: rgb(76, 175, 80);
   border-color: rgb(76, 175, 80);
   text-align: center;
-  padding-top: 8px;
-
-
-  
-
 } 
-/*
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  .text-edge-outline {
-    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
-  }
-} 
-
-.btn-neumorphic {
-  box-shadow:  0px 1px 25px rgba(213, 213, 213, 0.2),  -9px -9px 16px rgb(51 51 51 / 50%);
-  color: #F0EDCF;
-  border-radius: 50px;
-  width: 160px;
-  height: 45px;
-  line-height: 35px;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  margin-top: 60px;
-  text-align: center;
--webkit-transition : box-shadow .5s;
-  transition : box-shadow .5s;
-  padding-top: 5px;
-  animation: box-shadow-color 10s ease infinite;
-  animation-fill-mode: forwards;
-
-}
-
-
-
-
-.btn-neumorphic:hover {
-  border: 1px solid #181818;
-    box-shadow: inset 2px 2px 4px #000, inset -5px -3px 4px #202020;
-  color: #fff;
-}
-
-
-.btn-neumorphic {
-  box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.9), -9px -9px 16px rgba(255, 0, 0, 0.9);
-  color: #F0EDCF;
-  border-radius: 50px;
-  width: 160px;
-  height: 45px;
-  line-height: 35px;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  margin-top: 60px;
-  text-align: center;
-  -webkit-transition: box-shadow 0.5s;
-  transition: box-shadow 0.5s;
-  padding-top: 5px;
-  animation: box-shadow-color 10s linear infinite;
-}
-
-@keyframes box-shadow-color {
-  0% {
-    box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.9), -9px -9px 16px rgba(255, 0, 0, 0.9);
-  }
-  25% {
-    box-shadow: 5px 5px 25px rgba(255, 165, 0, 0.9), -5px -5px 16px rgba(255, 165, 0, 0.9);
-  }
-  50% {
-    box-shadow: 0px 0px 25px rgba(0, 255, 0, 0.9), -9px -9px 16px rgba(0, 255, 0, 0.9);
-  }
-  75% {
-    box-shadow: -5px -5px 25px rgba(0, 0, 255, 0.9), 9px 9px 16px rgba(0, 0, 255, 0.9);
-  }
-  100% {
-    box-shadow: 0px 0px 25px rgba(255, 0, 255, 0.9), -9px -9px 16px rgba(255, 0, 255, 0.9);
-  }
-}
-
-.btn-neumorphic:hover {
-  border: 1px solid #181818;
-  box-shadow: inset 2px 2px 4px #000, inset -5px -3px 4px #202020;
-  color: #fff;
-} */
