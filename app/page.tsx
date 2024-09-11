@@ -317,6 +317,7 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Particles from "./components/particles";
+import LoadingAnimation from "./components/LoadingAnimation";
 
 
 const navigation = [
