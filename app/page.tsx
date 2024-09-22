@@ -8,7 +8,7 @@ const navigation = [
   { name: "Arif Metal", href: "https://services.arifgroup.in/arifmetal" },
   { name: "Arif Fabrications", href: "https://services.arifgroup.in/ariffabrications" },
   { name: "Our Services", href: "https://services.arifgroup.in" },
-  { name: "Contact Us", href: "/contact" },
+  { name: "Contact Us", href: "https://services.arifgroup.in/contact" },
   { name: "Google Maps", href: "https://maps.app.goo.gl/groQjAfwVaWHsQWTA" },
 ];
 
