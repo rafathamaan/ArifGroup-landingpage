@@ -7,21 +7,21 @@ import Particles from "app/components/particles";
 const socials = [
 	{
 		icon: <PhoneCall size={20} />,
-		href: "",
+		href: "tel:9394098658",
 		label: "Phone",
-		handle: "+91 9394098658",
+		handle: "9394098658",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:Support@arifgroup.in",
-		label: "Email",
+		href: "mailto:support@arifgroup.in",
+		label: "Mail",
 		handle: "Support@arifgroup.in",
 	},
 	{
 		icon: <MapPin size={20} />,
-		href: "",
+		href: "https://maps.app.goo.gl/groQjAfwVaWHsQWTA",
 		label: "Address",
-		handle: "Nh-65, Near Khammam Cross Road, Suryapet, 508213, Telangana",
+		handle: "Near Khammam Cross Road, Suryapet, Telangana",
 	},
 	
 ];
