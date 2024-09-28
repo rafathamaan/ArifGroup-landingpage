@@ -96,7 +96,7 @@ module.exports = {
 					},
 					"25%": {
 						"line-height": "0%",
-						transform: "translateY(45vh) scale(0)",
+						transform: "translateY(45vh) scale(0.2)",
 						opacity: "0%",
 					},
 					"80%": {
