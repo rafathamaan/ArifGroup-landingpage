@@ -38,10 +38,9 @@ module.exports = {
 			},
 			animation: {
 				"fade-in": "fade-in 3s ease-in-out forwards",
-				
+				title: "title 3s ease-in-out forwards",
 				"fade-left": "fade-left 3s ease-in-out forwards",
 				"fade-right": "fade-right 3s ease-in-out forwards",
-				title: "title 3s ease-in-out forwards",
 			},
 			keyframes: {
 				"fade-in": {
@@ -59,6 +58,7 @@ module.exports = {
 					"0%": {
 						transform: "translateX(100%) translateY(1.9vh) ",
 						opacity: "0%",
+						
 					},
 
 					"30%": {
