@@ -89,13 +89,13 @@ module.exports = {
 				title: {
 					"0%": {
 						"line-height": "0%",
-						transform: "translateY(45vh) scale(0.2)",
+						transform: "translateY(45vh) scale(0)",
 						"letter-spacing": "1.5rem",
 						opacity: "0",
 					},
 					"25%": {
 						"line-height": "0%",
-						transform: "translateY(45vh) scale(0.2)",
+						transform: "translateY(45vh) scale(0)",
 						opacity: "0%",
 					},
 					"80%": {
