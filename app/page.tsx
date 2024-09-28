@@ -13,13 +13,7 @@ const navigation = [
 ];
 
 export default function Home() {
-  const [animateFinished, setAnimateFinished] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setAnimateFinished(true);
-    }, 2800);
-  }, []);
+  
 
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
