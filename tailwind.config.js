@@ -90,7 +90,7 @@ module.exports = {
 					
 					"0%": {
 						"line-height": "0%",
-						transform: "translateY(45vh) scale(0)",
+						transform: "translateY(45vh) scale(0.2)",
 						"letter-spacing": "1.5rem",
 						opacity: "0",
 					},
