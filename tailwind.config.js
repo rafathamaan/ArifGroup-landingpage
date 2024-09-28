@@ -87,6 +87,7 @@ module.exports = {
 					},
 				},
 				title: {
+					
 					"0%": {
 						"line-height": "0%",
 						transform: "translateY(45vh) scale(0)",

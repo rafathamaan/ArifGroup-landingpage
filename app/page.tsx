@@ -30,7 +30,7 @@ export default function Home() {
       />
       
         <h1 className=" tracking-wider font-bold py-3.5 px-0.5 z-10 text-5xl text-transparent text-white 
-        cursor-default text-edge-outline @apply animate-title font-sans sm:text-7xl md:text-7xl lg:text-10xl whitespace-nowrap bg-clip-text hide-on-small-height move-on-big-screen "
+        cursor-default text-edge-outline animate-title font-sans sm:text-7xl md:text-7xl lg:text-10xl whitespace-nowrap bg-clip-text hide-on-small-height  "
         style={{ textShadow: "3px 4px 50px rgba(113, 120, 122, 1)",
           position: "absolute",
           top: "5%",
