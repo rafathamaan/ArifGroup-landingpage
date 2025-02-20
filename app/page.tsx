@@ -132,9 +132,9 @@ export default function Home() {
       </nav>
 
       <footer className="absolute bottom-4 text-sm text-zinc-400 animate-fade-in underline hover:text-green-600 ">
-        <Link href="https://linkedin.com/in/rafathamaan" target="_blank" rel="noopener noreferrer">
+        {/* <Link href="https://linkedin.com/in/rafathamaan" target="_blank" rel="noopener noreferrer">
           Developed by Rafath Amaan
-        </Link>
+        </Link> */}
       </footer>
     </div>
   );
